@@ -55,3 +55,45 @@ This project is being developed as an internship project focused on Edge AI and 
 - More advanced Edge AI models
 - Performance evaluation with real charging data
 - Integration with multiple charging stations
+
+- ## Testing and Validation
+
+The project was tested using the Wokwi ESP32 simulator and ThingsBoard Cloud.
+
+### Test 1 – Normal Charging
+
+- ESP32 simulation executed successfully
+- Normal charging operation verified
+- Telemetry sent to ThingsBoard Cloud
+- Cloud data verified successfully
+
+### Test 2 – Overcurrent Protection
+
+- Overcurrent condition simulated
+- System detected the overcurrent condition
+- Charging throttle was set to 50%
+- Overload protection verified successfully
+
+### Optimization Features
+
+The charging optimizer includes:
+
+- Normal charging control
+- Overcurrent protection
+- Station power-cap management
+- Peak-hour decision logic
+- Predicted EV arrival consideration
+- Relay and charging throttle control
+- ThingsBoard Cloud telemetry
+
+### Simulation
+
+The ESP32-based system was tested using the Wokwi simulator.
+
+### Cloud Monitoring
+
+Charging and telemetry data are sent to ThingsBoard Cloud for monitoring and verification.
+
+### Project Status
+
+The current implementation demonstrates an Edge AI-based smart EV charging optimization system using ESP32, Wokwi simulation, and ThingsBoard Cloud.
