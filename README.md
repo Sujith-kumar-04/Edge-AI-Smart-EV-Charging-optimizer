@@ -56,6 +56,12 @@ This project is being developed as an internship project focused on Edge AI and 
 - Performance evaluation with real charging data
 - Integration with multiple charging stations
 
+- ## System Architecture
+
+The system consists of an ESP32-based edge controller, charging-state monitoring, Edge AI prediction, charging optimization logic, relay/throttle control, Wokwi simulation, and ThingsBoard Cloud telemetry.
+
+![System Architecture](system_architecture.png)
+
 - ## Testing and Validation
 
 The project was tested using the Wokwi ESP32 simulator and ThingsBoard Cloud.
