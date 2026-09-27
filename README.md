@@ -96,6 +96,8 @@ The charging optimizer includes:
 
 The ESP32-based system was tested using the Wokwi simulator.
 
+![Wokwi Simulation](esp32_blink/docs/wokwi_simulation.png)
+
 ### Cloud Monitoring
 
 Charging and telemetry data are sent to ThingsBoard Cloud for monitoring and verification.
